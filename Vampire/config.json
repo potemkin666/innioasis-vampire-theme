@@ -1,15 +1,15 @@
 {
     "theme_info": {
-        "title": "Vampire",
+        "title": "Vampire Reliquary",
         "author": "potemkin666",
         "authorUrl": "https://github.com/potemkin666",
-        "description": "A gothic black, silver and blood-crimson theme for the Innioasis Y1 music player."
+        "description": "A deluxe black-velvet, oxidized-silver and stained-crimson vampire theme for the Innioasis Y1."
     },
     "themeCover": "cover.png",
     "desktopWallpaper": "desk_bg001.png",
     "globalWallpaper": "global_bg001.png",
     "itemConfig": {
-        "itemTextColor": "#ffffff",
+        "itemTextColor": "#E8E0D5",
         "itemSelectedTextColor": "#ffffff",
         "itemSelectedBackground": "1.png",
         "itemBackground": "",
@@ -17,15 +17,15 @@
     },
     "dialogConfig": {
         "dialogOptionBackground": "3.png",
-        "dialogOptionTextColor": "#ffffff",
+        "dialogOptionTextColor": "#E8E0D5",
         "dialogOptionSelectedBackground": "4.png",
         "dialogOptionSelectedTextColor": "#ffffff",
-        "dialogBackgroundColor": "#12090B"
+        "dialogBackgroundColor": "#100709"
     },
     "menuConfig": {
-        "menuBackgroundColor": "#080608",
+        "menuBackgroundColor": "#080507",
         "menuItemBackground": "",
-        "menuItemTextColor": "#ffffff",
+        "menuItemTextColor": "#E8E0D5",
         "menuItemSelectedBackground": "1.png",
         "menuItemSelectedTextColor": "#ffffff"
     },
@@ -109,6 +109,6 @@
         "blDisconnected": "",
         "headsetWithMic": "",
         "headsetWithoutMic": "",
-        "statusBarColor": "#10090B"
+        "statusBarColor": "#0B0709"
     }
 }
