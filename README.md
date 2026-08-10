@@ -1,127 +1,34 @@
-# innioasis Vampire Theme
+# Innioasis Vampire Theme
 
-A dark, gothic-inspired theme for web projects — "innioasis Vampire Theme" provides moody visuals, high-contrast typography, and customizable accent colors for sites, blogs or landing pages that want a vampire / nocturnal aesthetic.
+An install-ready gothic theme for the stock Innioasis Y1 music player. The visual system uses velvet black, cold silver and blood-crimson accents, with an original vampire portrait and a deliberately subdued menu wallpaper for readable white text.
 
-> Note: This README is a general guide. If this theme integrates with a specific framework (Jekyll, Hugo, WordPress, etc.), you can add framework-specific installation steps to the "Installation" section.
+![Vampire desktop wallpaper](./Vampire/desk_bg001.png)
 
-## Features
+## What is included
 
-- Dark, atmospheric color palette tuned for readability
-- Prominent accent colors for buttons and links
-- Responsive layout and typography
-- Easy-to-customize variables (colors, fonts, spacing)
-- Assets organized for straightforward integration (CSS, JS, images)
+- Original 480×360 desktop and global wallpapers
+- 500×500 theme-selector cover
+- Twelve recoloured home-page icons, including the newer `ebook` entry
+- Complete settings icon set and selected/dialog states
+- Valid `config.json` with theme metadata and exact case-sensitive asset references
 
-## Preview
+## Install
 
-Add a screenshot or GIF here to show the theme in action. Example:
+1. Download or clone this repository.
+2. Connect the Innioasis Y1 to your computer and enable USB mode.
+3. Copy the complete `Vampire` folder into the player's `Themes` folder. On the player this is `/storage/sdcard0/Themes/Vampire/`.
+4. Open the Y1 app, then choose **Settings → Theme → Vampire** and confirm.
 
-![Preview screenshot](./assets/preview.png)
+Do not copy only the wallpaper or the files inside the folder—the player expects `config.json`, `cover.png`, and all referenced assets to remain together inside `Vampire`.
 
-(If you don't have a preview yet, remove or replace this line.)
+## Local working copy
 
-## Installation
+The same ready-to-use folder is installed at `D:\Themes\Vampire` on the creator's Windows machine.
 
-Choose how you'd like to use the theme depending on your project:
+## Design notes
 
-Option A — Use as a static-theme (plain HTML/CSS):
+The supplied gothic vampire artwork was used as a mood and palette reference. The packaged portrait and wallpaper are newly generated theme assets; the source reference image is not redistributed in this repository.
 
-1. Clone this repository or download the ZIP.
-   ```bash
-   git clone https://github.com/potemkin666/innioasis-vampire-theme.git
-   ```
-2. Copy the `assets/`, `css/`, and `js/` folders (or the files you need) into your project.
-3. Include the theme stylesheet in your HTML head:
-   ```html
-   <link rel="stylesheet" href="/path/to/innioasis-vampire-theme/css/style.css">
-   ```
+## Compatibility and validation
 
-Option B — Install as a submodule for a larger project:
-
-```bash
-git submodule add https://github.com/potemkin666/innioasis-vampire-theme.git themes/innioasis-vampire
-```
-
-Option C — Framework integration:
-
-- Jekyll/Hugo/Other: Add the theme files into the appropriate theme or layout folders and adapt the templates to your site structure. If you want, add framework-specific docs in this README.
-
-## Quick start
-
-1. Clone the repository.
-2. Open `index.html` (or your preferred entrypoint) in a browser to preview.
-3. For local development, run a simple static server:
-
-```bash
-# Python 3
-python -m http.server 8000
-# or using Node.js http-server
-npx http-server -p 8000
-```
-
-Then visit http://localhost:8000 in your browser.
-
-## Customization
-
-The theme is designed to be easy to tweak. Typical places to customize:
-
-- `css/variables.css` or the top of `style.css` — adjust colors, fonts, spacing variables.
-- `assets/` — swap background images, icons, and other media for your own.
-- `js/` — adapt or extend interactive behavior.
-
-Example color variables (update to match your CSS setup):
-
-```css
-:root {
-  --background: #0b0b0d;
-  --foreground: #e6e6e6;
-  --accent: #c0392b; /* vampire red */
-  --muted: #9a9a9a;
-}
-```
-
-## Development
-
-If you add a build toolchain (Sass/SCSS, PostCSS, Webpack, etc.), document the commands here.
-
-Suggested steps for a simple Sass workflow:
-
-```bash
-# install deps
-npm install
-# build styles
-npm run build:css
-# watch for changes
-npm run watch
-```
-
-(Replace with actual scripts when present in `package.json`.)
-
-## Contributing
-
-Contributions are welcome. Please:
-
-1. Fork the repository.
-2. Create a branch for your change: `git checkout -b feat/some-change`.
-3. Make your changes and add tests or screenshots if relevant.
-4. Open a Pull Request describing the change.
-
-Add a `CONTRIBUTING.md` if you want more detailed guidelines.
-
-## Issues & Support
-
-Please open an issue for bug reports, feature requests, or questions. Include screenshots and steps to reproduce when applicable.
-
-## License
-
-No license file is included in this repository yet. Add a `LICENSE` file (for example, MIT, Apache-2.0) to specify how others may use this theme.
-
-If you'd like, I can add a recommended license and update this README accordingly.
-
-## Author / Contact
-
-Maintained by potomkin666.
-
----
-
-Thanks for using the innioasis Vampire Theme. Pull requests and feedback are appreciated!
+The package follows the stock Innioasis Y1 theme structure and uses PNG assets at the same dimensions as a complete bundled theme. Its JSON and asset references are checked before publishing. A final on-device visual check is still recommended because the physical player's firmware controls rendering.
