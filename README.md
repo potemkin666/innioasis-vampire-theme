@@ -1,6 +1,6 @@
 # Innioasis Vampire Nocturne Theme
 
-An install-ready watercolor-and-ink theme for the stock Innioasis Y1 music player. This revision deliberately replaces the prior polished fantasy rendering with fibrous paper, broken charcoal linework, granulated washes, lost edges and restrained wine-red accents.
+An install-ready watercolor-and-ink theme for the stock Innioasis Y1 music player.  Liven up your Innioasis with a fresh theme : ) easy to download easy to install
 
 ![Vampire Nocturne theme art board](./preview.png)
 
