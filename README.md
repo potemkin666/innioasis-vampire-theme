@@ -1,36 +1,37 @@
-# Innioasis Vampire Reliquary Theme
+# Innioasis Vampire Nocturne Theme
 
-A deluxe gothic artefact for the stock Innioasis Y1 music player: an aristocratic vampire rendered through black velvet, illuminated engraving, oxidized silver thornwork and fractured blood-red stained glass.
+An install-ready watercolor-and-ink theme for the stock Innioasis Y1 music player. This revision deliberately replaces the prior polished fantasy rendering with fibrous paper, broken charcoal linework, granulated washes, lost edges and restrained wine-red accents.
 
-![Vampire Reliquary theme art board](./preview.png)
+![Vampire Nocturne theme art board](./preview.png)
 
-## The deluxe system
+## The handmade direction
 
-- Original gothic engraving / stained-glass wallpaper and theme-selector cover
-- Black-crimson glass treatment inside every coloured control
-- Bone-ivory glyphs and tiny deterministic ruby/silver fragments
-- Custom stained-glass selected-item and dialog panels with silver leading
+- Original asymmetrical watercolor-and-ink wallpaper and cover
+- Visible paper grain, wash blooms, dry brush and incomplete edges
+- Flat wine and charcoal controls instead of glossy rendered surfaces
+- Pale paper glyphs with slight tonal variation
+- Irregular pooled-wash selected-item and dialog panels
+- Muted gold flecks used sparingly rather than symmetrical ornament
 - Separate darker global wallpaper for readable submenu text
 - Complete home and settings coverage, including the newer `ebook` entry
-- Cohesive presentation art board and ready-to-copy ZIP package
 
 ## Install
 
 1. Download `Vampire-theme.zip` from this repository and extract it, or clone the repository.
 2. Connect the Innioasis Y1 to your computer and enable USB mode.
 3. Copy the complete `Vampire` folder into the player's `Themes` folder. On the player this is `/storage/sdcard0/Themes/Vampire/`.
-4. Open the Y1 app, then choose **Settings → Theme → Vampire Reliquary** and confirm.
+4. Open the Y1 app, then choose **Settings → Theme → Vampire Nocturne** and confirm.
 
 Keep `config.json`, `cover.png`, and every referenced PNG together inside the `Vampire` folder. File names are case-sensitive on the player.
 
 ## Palette
 
-- Pitch black `#080507`
-- Velvet charcoal `#100709`
-- Oxidized silver `#B0ACA9`
-- Bone ivory `#E8E0D5`
-- Dried-blood crimson `#76101D`
-- Ruby glass `#C41427`
+- Charcoal ink `#251E20`
+- Bone paper `#EFE7DA`
+- Smoke wash `#51494A`
+- Wine wash `#6B2331`
+- Faded crimson `#A45B63`
+- Muted gold `#977B48`
 
 ## Local working copy
 
@@ -38,7 +39,7 @@ The same upgraded package is installed at `D:\Themes\Vampire` on the creator's W
 
 ## Design provenance
 
-The supplied gothic vampire artwork was used as a character, mood and palette reference. The packaged wallpaper and cover are newly generated theme assets; the source reference image is not redistributed here. The full control treatment and presentation art board are procedurally constructed from the palette and icon silhouettes.
+The supplied gothic vampire artwork was used as a character and mood reference. The packaged wallpaper and cover are newly generated watercolor-and-ink assets and do not imitate any named artist or reproduce the source image. The control treatment and presentation board are procedurally constructed from icon silhouettes, irregular washes and paper-like texture.
 
 ## Validation
 

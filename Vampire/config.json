@@ -1,15 +1,15 @@
 {
     "theme_info": {
-        "title": "Vampire Reliquary",
+        "title": "Vampire Nocturne",
         "author": "potemkin666",
         "authorUrl": "https://github.com/potemkin666",
-        "description": "A deluxe black-velvet, oxidized-silver and stained-crimson vampire theme for the Innioasis Y1."
+        "description": "An ethereal charcoal, bone-paper and wine-watercolour vampire theme for the Innioasis Y1."
     },
     "themeCover": "cover.png",
     "desktopWallpaper": "desk_bg001.png",
     "globalWallpaper": "global_bg001.png",
     "itemConfig": {
-        "itemTextColor": "#E8E0D5",
+        "itemTextColor": "#EFE7DA",
         "itemSelectedTextColor": "#ffffff",
         "itemSelectedBackground": "1.png",
         "itemBackground": "",
@@ -17,15 +17,15 @@
     },
     "dialogConfig": {
         "dialogOptionBackground": "3.png",
-        "dialogOptionTextColor": "#E8E0D5",
+        "dialogOptionTextColor": "#EFE7DA",
         "dialogOptionSelectedBackground": "4.png",
         "dialogOptionSelectedTextColor": "#ffffff",
-        "dialogBackgroundColor": "#100709"
+        "dialogBackgroundColor": "#171315"
     },
     "menuConfig": {
-        "menuBackgroundColor": "#080507",
+        "menuBackgroundColor": "#100D0F",
         "menuItemBackground": "",
-        "menuItemTextColor": "#E8E0D5",
+        "menuItemTextColor": "#EFE7DA",
         "menuItemSelectedBackground": "1.png",
         "menuItemSelectedTextColor": "#ffffff"
     },
@@ -109,6 +109,6 @@
         "blDisconnected": "",
         "headsetWithMic": "",
         "headsetWithoutMic": "",
-        "statusBarColor": "#0B0709"
+        "statusBarColor": "#151113"
     }
 }
